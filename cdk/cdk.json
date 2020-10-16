@@ -1,0 +1,11 @@
+{
+  "app": "python3 app.py",
+  "context": {
+    "@aws-cdk/core:enableStackNameDuplicates": "true",
+    "aws-cdk:enableDiffNoFail": "true",
+    "@aws-cdk/core:stackRelativeExports": "true",
+    "vpc_id": "vpc-123456",
+    "subnet_ids" : [ "subnet-123456"],
+    "rds_secret_arn": "arn:aws:secretsmanager:<REGION>:<ACCOUNT>:secret:example_appsync_rds_secret-XXXX"
+  }
+}
