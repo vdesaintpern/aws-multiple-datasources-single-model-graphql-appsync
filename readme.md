@@ -1,5 +1,6 @@
 # RDS / DynamoDB datasources in single GraphQL model with AWS AppSync
 
+WORK IN PROGRESS
 
 # Architecture
 
